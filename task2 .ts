@@ -10,7 +10,7 @@ class Pizza {
       this.hasCheese = hasCheese;
     }
   
-    bake():void {
+   public bake():void {
       setTimeout(() => console.log('Enjoy your pizza!'));
     }
   }
@@ -27,7 +27,7 @@ class Pizza {
       this.hasSauce = hasSauce;
     }
   
-    cook():void {
+   public cook():void {
       setTimeout(() => console.log('Enjoy your pasta!'));
     }
   }
